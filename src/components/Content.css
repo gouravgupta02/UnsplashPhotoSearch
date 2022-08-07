@@ -1,4 +1,5 @@
 .headings {
+    font-family: 'Lobster Two', cursive;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,6 +8,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.container input, .container button{
+    font-family: 'Merriweather', serif;
+    margin: auto 1rem;
 }
 .photo {
     margin: 10px auto;

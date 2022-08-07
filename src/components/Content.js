@@ -26,7 +26,7 @@ function Content(props) {
                 <h1>{props.heading}</h1>
             </div>
             <div className="container">
-                <input type="text" name="photo" onChange={handleChange}placeholder="Enter image name" />
+                <input type="text" name="photo" onChange={handleChange} placeholder="Enter image name" />
                 <button type="submit" onClick={handleSubmit}>Search</button>
             </div>
             <div className="photo">
